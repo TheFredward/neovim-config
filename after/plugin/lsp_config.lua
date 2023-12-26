@@ -12,6 +12,7 @@ require('lspconfig').bashls.setup({})
 require('lspconfig').html.setup({})
 require('lspconfig').cssls.setup({})
 require('lspconfig').tsserver.setup({})
+require('lspconfig').marksman.setup({})
 require('lspconfig').arduino_language_server.setup({
 	cmd = {
 		"/home/thefredward/go/bin/arduino-language-server",
